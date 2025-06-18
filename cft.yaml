@@ -301,7 +301,7 @@ Resources:
       AmiType: AL2_x86_64
       DiskSize: 20
       RemoteAccess:
-        Ec2SshKey: ""  # Optional: Add your SSH key name here to allow SSH access to nodes
+        Ec2SshKey: "ustweb"  # Optional: Add your SSH key name here to allow SSH access to nodes
       Tags:
         Name: !Sub "${ClusterName}-nodegroup"
 
